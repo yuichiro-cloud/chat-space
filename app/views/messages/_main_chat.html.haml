@@ -27,10 +27,9 @@
   .main-chat__message-form-padding
     .main-chat__message-form-padding__form
       .main-chat__message-form-padding__form__text
-        .main-chat__message-form-padding__form__text__chat
-          type a message
+        %input{type:"text", class:"main-chat__message-form-padding__form__text__chat", placeholder:"type a message"}
         %label{class: "main-chat__message-form-padding__form__text__icon"}
           = icon('fas', 'image')
           %input{type: "file", class: "main-chat__message-form-padding__form__text__icon__open"}
-      .main-chat__message-form-padding__form__send
-        Send
+      %input{type:"submit", value:"Send",  class: "main-chat__message-form-padding__form__send"}
+        
