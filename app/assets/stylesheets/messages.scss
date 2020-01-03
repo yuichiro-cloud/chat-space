@@ -53,11 +53,16 @@
   &__group-list{
     height: calc(100vh - 100px);
     background-color: #2f3e51;
+    
     &__messagebox{
       font-weight: bold;
       color: #ffffff;
       margin-left: 20px;
       margin-right: 20px;
+      a {
+        color: #FFF;
+        text-decoration: none;
+      }
       &__groupname{
         font-size: 15px;
         padding-top: 20px;
@@ -65,10 +70,10 @@
       }
       &__message{
         font-size: 11px;
-        
         padding-bottom: 40px;
         
       }
+    
 
     }
   }
