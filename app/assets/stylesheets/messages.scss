@@ -24,7 +24,6 @@
           font-size: 16px;
           line-height: 100%;
           color: #ffffff;
-          
         }
         &__right-username{
           width: 60px;
@@ -41,14 +40,10 @@
           &__icon2{
             color: #ffffff;
             font-size: 0.7em;
-
-        
-          }
-
-        }
-       
-      }
-  }
+           }
+         }
+       }
+     }
 
   &__group-list{
     height: calc(100vh - 100px);
@@ -73,11 +68,9 @@
         padding-bottom: 40px;
         
       }
-    
-
     }
   }
-}
+ }
   .main-chat{
     height: 100vh;
     width: calc(100vw - 300px);
@@ -112,54 +105,44 @@
         line-height: 40px;
         margin-top: 28px;
         margin-right: 30px;
-
       }
-      }
+    }
     
     &__message-list{
       height: calc(100vh - 190px);
       background-color: #fafafa;
       padding-left: 40px;
       padding-top:35px ;
-        &__chat{
-          &__content1{
+        &__message{
+          &__upper-message{
             display: flex;
-            &__name{
+            &__user-name{
               color: #333333;
               font-size: 16px;
+              font-weight: bold;
             }
-            &__at{
+            &__date{
               color: #999999;
               font-size: 12px;
+              margin-left: 10px;
     
             }
           }
           
-          &__text1{
+          &__lower-message{
             color: #434A54;
             font-size: 14px;
             margin-top: 12px;
-          }
-          
-          &__content2{
-            margin-top: 46px;
-            display: flex;
-            &__name{
-              color: #333333;
-              font-size: 16px;
+            &__content{
+              margin-bottom: 46px;
+              display: flex;
             }
-            &__at{
-              color: #999999;
-              font-size: 12px;
+            &__image{
+
             }
-          }
-          &__text2{
-            color: #434A54;
-            font-size: 14px;
-            margin-top: 12px;
-          }
-        }
+         }
       }
+    }
     &__message-form-padding{
       height: 90px;
       background-color: #d2d2d2;
@@ -168,7 +151,7 @@
       align-items: center;
       &__form{
         display: flex;
-        width: calc(100% - 80px);
+        width: 1100px;
         justify-content: space-between;
         align-items: center;
         &__text{
@@ -179,8 +162,12 @@
           margin-right: 15px;
           height: 50px;
           align-items: center;
+
           &__chat{
             margin-left: 10px;
+            border:none;
+            height:100%;
+            width: 100%;
           }
           &__icon{
             margin-right: 10px;
@@ -193,13 +180,12 @@
           margin-right:40px;
           background-color: #38aef0;
           color: white;
+          height: 50px;
+          width: 100px;
         }
       }
-      
-      }
+    }
+    } 
+ } 
 
-    
-  }
-}
 
-  
