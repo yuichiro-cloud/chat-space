@@ -113,6 +113,7 @@
       background-color: #fafafa;
       padding-left: 40px;
       padding-top:35px ;
+      overflow:scroll;
         &__message{
           &__upper-message{
             display: flex;
@@ -138,7 +139,7 @@
               display: flex;
             }
             &__image{
-
+              width: 200px;
             }
          }
       }
@@ -187,5 +188,7 @@
     }
     } 
  } 
+
+
 
 
