@@ -50,7 +50,6 @@ $('#new_message').on('submit', function(e){
    contentType: false
   })
   .done(function(formData){
-    console.log("OK");
     var html = buildHTML(formData);
     $('.main-chat__message-list').append(html);   
     $('.main-chat__message-list').animate({ scrollTop: $('.main-chat__message-list')[0].scrollHeight});   
@@ -87,6 +86,6 @@ $('#new_message').on('submit', function(e){
     });
   };
   if (document.location.href.match(/\/groups\/\d+\/messages/)) {
-    setInterval(reloadMessages, 4000);
+    setInterval(reloadMessages, 7000);
   }
 });
